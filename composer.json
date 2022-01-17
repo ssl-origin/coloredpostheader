@@ -1,10 +1,10 @@
 {
     "name": "origin/coloredpostheader",
     "type": "phpbb-extension",
-    "description": "Addition of a colored band, corresponding to the color of the groups, at the top of each message",
+    "description": "This extension allows you to have a coloured message header with the colour of the default group of the poster.",
     "homepage": "https://caforum/fr/forum",
-    "version": "1.0.1",
-    "time": "2020-11-30",
+    "version": "1.1.0",
+    "time": "2022-01-17",
     "keywords": [
         "phpbb",
         "extension"
@@ -21,12 +21,12 @@
     "require": {
         "php": ">=7.1.3",
         "composer/installers": "~1.0.0"
-        "phpbb/phpbb": "3.3"
+        "phpbb/phpbb": "3.3.0"
     },
     "extra": {
         "display-name": "Colored Post Header",
         "soft-require": {
-            "phpbb/phpbb": ">=3.3"
+            "phpbb/phpbb": ">=3.3.0"
         }
     }
 }
